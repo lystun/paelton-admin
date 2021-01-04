@@ -126,21 +126,12 @@
             }
         }
     }
-
-    
 </script>
 
 <style lang="scss">
 
     @import '~assets/css/sb-admin.css';
 
-    #content-wrapper {
-        // background: $gray;
-    }
-
-    .wrapper {
-        // background-color: $gray!important;
-    }
 
     .sidebar {
         background: $primary;
