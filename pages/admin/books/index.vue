@@ -15,7 +15,6 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Book Cover</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Author</th>
                                 <th scope="col">Created On</th>
@@ -25,7 +24,6 @@
                         <tbody>
                             <tr v-for="(book, index) in books" :key="index">
                                 <th class="align-middle">{{ index+1 }}</th>
-                                <td class="align-middle"><img src="~/assets/images/avatars/1.png" alt="" width="50px"> </td>
                                 <td class="align-middle"> {{ book.title }} </td>
                                 <td class="align-middle"> {{ book.author }} </td>
                                 <td class="align-middle"> {{ book.createdAt | formatDate }} </td>

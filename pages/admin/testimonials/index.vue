@@ -15,7 +15,6 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Image</th>
                                 <th scope="col">Name</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Created On</th>
@@ -25,7 +24,6 @@
                         <tbody>
                             <tr v-for="(testimonial, index) in testimonials" :key="index">
                                 <th class="align-middle">{{ index+1 }}</th>
-                                <td class="align-middle"><img src="~/assets/images/avatars/1.png" alt="" width="50px"> </td>
                                 <td class="align-middle"> {{ testimonial.name }} </td>
                                 <td class="align-middle"> {{ testimonial.title }} </td>
                                 <td class="align-middle"> {{ testimonial.createdAt | formatDate }} </td>

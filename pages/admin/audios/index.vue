@@ -15,7 +15,6 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Image</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Created On</th>
                                 <th scope="col">Actions</th>
@@ -24,7 +23,6 @@
                         <tbody>
                             <tr v-for="(audio, index) in audios" :key="index">
                                 <th class="align-middle">{{ index+1 }}</th>
-                                <td class="align-middle"><img src="~/assets/images/avatars/1.png" alt="" width="50px"> </td>
                                 <td class="align-middle"> {{ audio.title }} </td>
                                 <td class="align-middle"> {{ audio.createdAt | formatDate }} </td>
                                 <td class="align-middle">
