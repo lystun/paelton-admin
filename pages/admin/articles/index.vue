@@ -27,10 +27,10 @@
                                 <td class="align-middle"> {{ article.title }} </td>
                                 <td class="align-middle"> {{ article.author }} </td>
                                 <td class="align-middle"> {{ article.createdAt | formatDate }} </td>
-                                <td class="align-middle">
+                                <!-- <td class="align-middle">
                                     <nuxt-link to="#" class="btn btn-primary">Edit</nuxt-link>
                                     <button @click="deleteArticle(article._id)" class="btn btn-danger">Delete</button>
-                                </td>
+                                </td> -->
                             </tr>
                         </tbody>
                     </table>

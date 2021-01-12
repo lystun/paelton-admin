@@ -25,10 +25,10 @@
                                 <th class="align-middle">{{ index+1 }}</th>
                                 <td class="align-middle"> {{ audio.title }} </td>
                                 <td class="align-middle"> {{ audio.createdAt | formatDate }} </td>
-                                <td class="align-middle">
+                                <!-- <td class="align-middle">
                                     <nuxt-link to="#" class="btn btn-primary">Edit</nuxt-link>
                                     <button @click="deleteAudio(audio._id)" class="btn btn-danger">Delete</button>
-                                </td>
+                                </td> -->
                             </tr>
                         </tbody>
                     </table>

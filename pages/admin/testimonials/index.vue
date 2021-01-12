@@ -27,10 +27,10 @@
                                 <td class="align-middle"> {{ testimonial.name }} </td>
                                 <td class="align-middle"> {{ testimonial.title }} </td>
                                 <td class="align-middle"> {{ testimonial.createdAt | formatDate }} </td>
-                                <td class="align-middle">
+                                <!-- <td class="align-middle">
                                     <nuxt-link to="#" class="btn btn-primary">Edit</nuxt-link>
                                     <button @click="deleteTestimonial(testimonial._id)" class="btn btn-danger">Delete</button>
-                                </td>
+                                </td> -->
                             </tr>
                         </tbody>
                     </table>
